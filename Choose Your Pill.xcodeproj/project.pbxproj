@@ -11,6 +11,7 @@
 		DF63402D267F82B1005BD05F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF63402C267F82B1005BD05F /* ContentView.swift */; };
 		DF63402F267F82B3005BD05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF63402E267F82B3005BD05F /* Assets.xcassets */; };
 		DF634032267F82B3005BD05F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF634031267F82B3005BD05F /* Preview Assets.xcassets */; };
+		DF81242F267FF4F000626F0C /* PillPhraseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF81242E267FF4F000626F0C /* PillPhraseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DF63402E267F82B3005BD05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF634031267F82B3005BD05F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF634033267F82B3005BD05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF81242E267FF4F000626F0C /* PillPhraseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPhraseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				DF63402A267F82B1005BD05F /* Choose_Your_PillApp.swift */,
 				DF63402C267F82B1005BD05F /* ContentView.swift */,
+				DF81242E267FF4F000626F0C /* PillPhraseView.swift */,
 				DF63402E267F82B3005BD05F /* Assets.xcassets */,
 				DF634033267F82B3005BD05F /* Info.plist */,
 				DF634030267F82B3005BD05F /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				DF63402D267F82B1005BD05F /* ContentView.swift in Sources */,
 				DF63402B267F82B1005BD05F /* Choose_Your_PillApp.swift in Sources */,
+				DF81242F267FF4F000626F0C /* PillPhraseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
