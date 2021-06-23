@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Choose_Your_PillApp: App {
+    let persistence = PersistenceManager.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, PersistenceManager.preview.container.viewContext)
         }
     }
 }

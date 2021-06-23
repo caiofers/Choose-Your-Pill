@@ -68,12 +68,12 @@ struct ContentView: View {
                 HStack {
                     Spacer()
                     NavigationLink(
-                        destination: PillPhraseView(pillView: redPillView, tintColor: .red)) {
+                        destination: PillPhraseView(pillView: redPillView, tintColor: Color.red)) {
                         redPillView
                     }
                     Spacer()
                     NavigationLink(
-                        destination: PillPhraseView(pillView: bluePillView, tintColor: .blue)) {
+                        destination: PillPhraseView(pillView: bluePillView, tintColor: Color.blue)) {
                         bluePillView
                     }
                     Spacer()
@@ -90,7 +90,8 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        ContentView()
+        ContentView().environment(\.managedObjectContext, PersistenceManager.preview.container.viewContext)
     }
 }
